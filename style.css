@@ -1,0 +1,118 @@
+body {
+    background-color: #fafafa;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #222222;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff9900;
+    color: white;
+}
+
+.header p {
+    color: #ffffff;
+}
+
+/* Navigation bar */
+.nav table {
+    width: 100%;
+    background-color: #222222;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav td {
+    padding: 10px;
+}
+
+.nav td:hover {
+    background-color: #ff9900;
+}
+
+/* Sidebar */
+.sidebar {
+    padding: 10px;
+    background-color: #fff8e7;
+    height: 100%;
+}
+
+.sidebar h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ff9900;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.sidebar a:hover {
+    color: #ff9900;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #ff9900;
+    color: white;
+}
+
+/* Forms */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e68a00;
+}
+
+/* Center utility */
+.center {
+    text-align: center;
+}
+
